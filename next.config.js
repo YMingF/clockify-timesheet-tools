@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
-  basePath: "/clocklify-exporter",
   images: {
     unoptimized: true,
   },
