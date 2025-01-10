@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
+  basePath: "/clocklify-exporter",
+  images: {
+    unoptimized: true,
+  },
   async rewrites() {
     return [
       {
