@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  transpilePackages: ["@nextui-org/react", "@nextui-org/theme"],
   async rewrites() {
     return [
       {
